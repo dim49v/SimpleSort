@@ -10,3 +10,4 @@ bool sortTest(T* arr, int size);
 #include "sortExchange.cpp"
 #include "sortSelection.cpp"
 #include "sortTest.cpp"
+#include "Point.h"

@@ -4,7 +4,7 @@ void sortInsertion(T* arr, int size){
 	for (int i = 1; i < size ; i++){
 		key = arr[i];
 		int u = i;
-		while (key < arr[u-1] && u > 0){
+		for (u; (key < arr[u - 1]) && (u > 0); u--){
 			arr[u] = arr[u-1];
 			u--;
 		}
